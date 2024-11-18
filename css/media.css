@@ -1,0 +1,28 @@
+@media (max-width : 992px) and (min-width : 0px ) {
+    .navbar ul{
+        margin-top: 30px;
+    }
+    .navbar ul li {
+        text-align: center;
+    }
+
+    .navbar{
+        #navbarNav{
+            ul{
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 400;
+                font-family: "Poppins", serif;
+                li{
+                    .active::before{
+                        
+                        width: 12%;
+
+                    }
+                }
+            }
+        }
+    }
+    
+}
+    

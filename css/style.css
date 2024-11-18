@@ -1,0 +1,716 @@
+/* 
+    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", serif;
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Start NavBar */
+.navbar{
+    z-index: 10;
+    .logo{
+        
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 800;
+            font-family: "Montserrat", sans-serif;
+            font-style: normal;
+                
+    }
+
+
+}
+
+
+
+.navbar{
+    #navbarNav{
+        ul{
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400;
+            font-family: "Poppins", serif;
+
+            }
+        }
+    }
+
+.navbar ul li .active::before{
+        position: absolute;
+        content: '';
+        background-color: black;
+        width: 45px;
+        height: 2px;
+        bottom: 25%;
+        transition: all 0.5s;
+    }
+
+/* End NavBar */
+
+/* Start Header */
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../imgs/bg.jpg);
+    background-position: top;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+    h1{
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 55px;
+    }
+    p{
+        font-size: 60px;
+        line-height: 72px;
+        font-weight: 200;
+    }
+
+}
+@keyframes header {
+    0% {
+        content: 'L|';
+    }
+
+    1.5% {
+        content: 'La|';
+    }
+
+    3% {
+        content: 'Lar|';
+    }
+
+    4.5% {
+        content: 'Larr|';
+    }
+
+    6% {
+        content: 'Larry|';
+    }
+
+    7.5% {
+        content: 'Larry |';
+    }
+
+    9% {
+        content: 'Larry D|';
+    }
+
+    10.5% {
+        content: 'Larry Da|';
+    }
+
+    12% {
+        content: 'Larry Dan|';
+    }
+
+    13.5% {
+        content: 'Larry Dani|';
+    }
+
+    15% {
+        content: 'Larry Dania|';
+    }
+
+    16.5% {
+        content: 'Larry Danial|';
+    }
+
+    18% {
+        content: 'Larry Danials|';
+    }
+
+    19.5% {
+        content: 'Larry Danial|';
+    }
+
+    21% {
+        content: 'Larry Dania|';
+    }
+
+    22.5% {
+        content: 'Larry Dani|';
+    }
+
+    24% {
+        content: 'Larry Dan|';
+    }
+
+    25.5% {
+        content: 'Larry Da|';
+    }
+
+    27% {
+        content: 'Larry D|';
+    }
+
+    28.5% {
+        content: 'Larry |';
+    }
+
+    30% {
+        content: 'Larry|';
+    }
+
+    31.5% {
+        content: 'Larr|';
+    }
+    33% {
+        content: 'Lar|';
+    }
+
+    34.5% {
+        content: 'La|';
+    }
+
+    36% {
+        content: 'L|';
+    }
+
+    37.5% {
+        content: '|';
+    }
+
+    39% {
+        content: 'D|';
+    }
+
+    40.5% {
+        content: 'De|';
+    }
+
+    42% {
+        content: 'Dev|';
+    }
+
+    43.5% {
+        content: 'Deve|';
+    }
+
+    45% {
+        content: 'Devel|';
+    }
+
+    46.5% {
+        content: 'Develo|';
+    }
+
+    48% {
+        content: 'Develop|';
+    }
+
+    49.5% {
+        content: 'Develope|';
+    }
+
+    51% {
+        content: 'Developer|';
+    }
+
+    52.5% {
+        content: 'Develope|';
+    }
+
+    54% {
+        content: 'Develop|';
+    }
+
+    55.5% {
+        content: 'Develo|';
+    }
+
+    56% {
+        content: 'Devel|';
+    }
+
+    57.5% {
+        content: 'Deve|';
+    }
+
+    59% {
+        content: 'Dev|';
+    }
+
+    60.5% {
+        content: 'De|';
+    }
+
+    62% {
+        content: 'D|';
+    }
+
+    62.5% {
+        content: '|';
+    }
+
+    64% {
+        content: 'D|';
+    }
+
+    65.5% {
+        content: 'De|';
+    }
+
+    67% {
+        content: 'Des|';
+    }
+
+    68.5% {
+        content: 'Desi|';
+    }
+
+    70% {
+        content: 'Desig|';
+    }
+
+    71.5% {
+        content: 'Design|';
+    }
+
+    73% {
+        content: 'Designe|';
+    }
+
+    74.5% {
+        content: 'Designer|';
+    }
+
+    76% {
+        content: 'Designe|';
+    }
+
+    77.5% {
+        content: 'Design|';
+    }
+
+    79% {
+        content: 'Desig|';
+    }
+
+    80.5% {
+        content: 'Desi|';
+    }
+
+    82% {
+        content: 'Des|';
+    }
+
+    83.5% {
+        content: 'De|';
+    }
+
+    85% {
+        content: 'D|';
+    }
+
+    86.5% {
+        content: '|';
+    }
+}
+header p::after{
+    content: '';
+    animation-name: header;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 400;
+}
+
+.icons span{
+    padding: 8px 12px;
+    border-radius: 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+.icons span i{
+    font-size: 14px;
+    line-height: 14px;
+}
+/* End Header */
+/* Start About */
+
+
+
+.about .about-photo::before{
+    content: '';
+    position: absolute;
+    bottom: -8%;
+    top: 50%;
+    left: -8%;
+    right: 0;
+    background: url(../imgs/dots.png);
+}
+.about h2{
+    font-weight: 800;
+    line-height: 33px;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+.about .jop{
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+
+}
+.about .jop-desc span{
+    font-weight: 700;
+}
+.about .jop-desc{
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "Poppins", serif;
+}
+
+.about-content h6{
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 500;
+    top: 50%;
+    left: 12%;
+    transform: translate(-50%,-50%);
+}
+.about-content .about-button button{
+    font-family: "Poppins", serif;
+    font-size: 13px;
+    line-height: 19px;
+    transition: 0.5s;
+
+}
+
+.about-content .about-button button:nth-child(1):hover{
+    background-color: white;
+    color: black;
+}
+.about-content .about-button button:nth-child(2):hover{
+    background-color: black;
+    color: white;
+}
+
+/* End About */
+/* Start Services */
+
+.services{
+    background-color: #F7F7F7;
+}
+
+.tittle h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+}
+.dots{
+    position: relative;
+    z-index: 5;
+}
+.dots::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 220px;
+    height: 50%;
+    background: url(../imgs/dots.png);
+    z-index: -1;
+}
+
+
+.services .items .item i{
+    background-color: #F7F7F7;
+    padding: 19px 21px;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 30px;
+    transition: 0.5s;
+}
+.services .items .item:hover i{
+    color: white;
+    background-color: black;
+}
+
+.services .items .item h3{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.services .items .item p{
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Poppins", serif;
+}
+
+/* End Services */
+
+/* Start Portfolio */
+
+
+
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link{
+    background-color: transparent !important;
+    color: black !important;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    font-family: "Poppins", serif;
+}
+
+.nav-pills .nav-link.active::after{
+    position: absolute;
+    content: ' ';
+    background-color: black;
+    width: 75%;
+    height: 2px;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.portfolio-layer{
+    background-color: white;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    top: 5px;
+    transition: all 0.75s;
+    opacity: 0;
+}
+.port:hover .portfolio-layer{
+    opacity: 1;
+}
+
+.portfolio-layer p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+}
+.portfolio-layer i{
+    padding: 6px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.portfolio-layer i:hover{
+    color: black;
+    background-color: white;
+    border: 0.5px solid black;
+}
+
+/* End Portfolio */
+
+/* Start Testimonial */
+
+
+
+.testimonials{
+    background-color: #F7F7F7;
+}
+
+
+
+
+.testimonials .client-img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.carousel-indicators button{
+    width: 12px !important;
+    height:12px !important;
+    border-radius: 50%;
+    background-color: #D6D6D6 !important;
+}
+
+.client .caption p{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Poppins", serif;
+}
+.client .caption h5{
+    font-size: 16px;
+    line-height: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+.client .caption span{
+    font-size: 12px;
+    line-height: 17px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+
+} 
+
+
+/* End Testimonial */
+
+
+/* Start Numbers */
+
+
+.numbers .number i{
+    font-size: 30px;
+    line-height: 30px;
+}
+.numbers .number h5{
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+}
+.numbers .number span{
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "Poppins", serif;
+font-weight: 600;
+color: rgb(116, 129, 130);
+}
+
+/* End Numbers */
+
+/* Start Team */
+.team{
+    background-color: #F7F7F7;
+}
+
+.team-layer{
+    background-color: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    bottom: 127px;
+    left: 5px;
+    right: 5px;
+    top: 5px;
+    transition: 0.5s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+}
+.person{
+    transition: all 0.75s;
+}
+.team-photo{
+    transition: all 0.75s;
+}
+.person:hover .team-photo{
+    transform: scale(1.2);
+}
+.person:hover .team-layer
+{
+    transform: rotateY(0deg);
+    opacity: 1;
+}
+
+
+.team-layer i{
+    padding: 6px 8px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.team-layer i:hover{
+    color: black;
+    background-color: white;
+    border: 0.5px solid black;
+}
+
+
+.team .caption-team{
+    background-color: #5B5B5B;
+    color: white;
+}
+
+.team .caption-team p{
+    font-size: 25px;
+    line-height: 28px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.team .caption-team h5{
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* End Team */
+/* Start Contact */
+
+.contact .contact-item i{
+    font-size: 24px;
+    line-height: 25px;
+    padding: 20px;
+    border-radius: 50%;
+    color: black;
+    background-color: #F7F7F7;
+    transition: all 0.5s;
+}
+
+.contact .contact-item:hover i{
+    color: white;
+    background-color: black;
+}
+
+.contact .contact-item span{
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 18px;}
+.contact .contact-item p{
+    font-family: "Poppins", serif;
+    font-size: 15px;
+    line-height: 24px;}
+
+
+.contact .form-contact{
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #f4f4f4;
+    font-family: "Poppins", serif;
+} 
+
+.contact .form-contact:focus{
+    outline: unset;
+}
+
+
+/* End Contact */
+
+/* Start Footer */
+.footer{
+    background-color: #1C1C1C;
+}
+
+.footer p{
+    font-family: "Poppins", serif;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgb(116, 129, 130);
+}
+.contact-button button{
+    font-family: "Poppins", serif;
+    font-size: 13px;
+    line-height: 19px;
+    padding: 8px;
+    transition: 0.5s;
+}
+
+.contact-button button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* End Footer */
